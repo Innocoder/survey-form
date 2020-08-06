@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen+Mono|Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Oxygen+Mono|Space+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: auto;
+  background: #FFFFFF;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+form {
+  width: 700px;
+  margin: 0 auto;
+  background: #c0efba;
+  padding: 40px;
+  border-radius: 5px;
+  
+}
+
+
+.label-radio, .label-check, #comments {
+  display: inline-block;
+  width: 100%;
+}
+
+input[type=text],input[type=email],input[type=number], select {
+  display: inline-block;
+  width: 100%;
+  border-radius: 4px;
+  margin: 5px 0px 15px 0px;
+  border: 1px solid #ccc;
+  padding: 10px 0px 10px 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input[type=radio], input[type=checkbox] {
+  margin-left: 15px;
+}
+#check {
+
+}
+#submit {
+  background-color: #2962FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.radios {
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+textarea {
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.add-course {
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+
+#title span{
+  color:#2962FF;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 700px) {
+  form {
+    max-width: 100%;
+  }
+}
